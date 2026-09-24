@@ -1,0 +1,18 @@
+# GitHub Profile 仓库 .gitignore
+
+# 工作流输出分支目录（自动生成，不入库）
+output/
+
+# macOS
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 临时文件
+*.tmp
+*.bak
+*~
