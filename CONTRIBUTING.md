@@ -1,15 +1,21 @@
-# 贡献指南
+# Contributing
 
-感谢你对我的个人主页项目的关注！
+Thank you for contributing!
 
-## 修改规范
+## How to Contribute
 
-- 保持 README.md 简洁
-- 使用 Markdown 标准语法
-- 提交前预览渲染效果
+1. Fork and create a branch from the default branch
+2. Make your changes with clear commit messages
+3. Test thoroughly
+4. Submit a Pull Request
 
-## 提交 Pull Request
+### Commit Format
+```
+type(scope): description
+```
+Types: `fix`, `feat`, `docs`, `refactor`, `chore`
 
-1. Fork 本仓库并创建功能分支
-2. 提交变更
-3. 创建 Pull Request
+### Code Style
+- Follow existing conventions
+- Write clear comments
+- Update documentation when needed
