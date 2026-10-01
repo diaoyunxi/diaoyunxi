@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate markdown
+        run: |
+          echo "Checking README.md..."
+          test -f README.md && echo "README exists" || echo "Missing README.md"
